@@ -1,0 +1,50 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.home h4 {
+  font-size: 20px;
+  margin: 0 0;
+}
+.home h1 {
+  font-size: 42px;
+  margin: 0 0;
+}
+.right {
+  width: 50%;
+  padding-top: 30px;
+  margin: 0 0;
+  text-align: left;
+}
+.left {
+  width: 50%;
+  margin: 0 0;
+  margin-top: 0px;
+}
+.left img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    display: block;
+  }
+  .home h4 {
+    font-size: 20px;
+  }
+  .home h1 {
+    font-size: 32px;
+  }
+  .right {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .left {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+}

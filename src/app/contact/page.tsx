@@ -1,16 +1,14 @@
 import Wrapper from "@/components/shared/Wrapper";
 import React from "react";
-
+import styles from "./contact.module.css";
 const ContactPage = () => {
   return (
     <Wrapper>
       <div>
-        <h1 className="text-3xl sm:text-5xl font-bold text-center">
-          Contact Us
-        </h1>
+        <h1 className={styles.heading}>Contact Us</h1>
         <div className="my-8">
           <form action="#" className="space-y-3">
-            <div className="space-y-1">
+            <div className={styles.field}>
               <label htmlFor="FullName" className="block text-lg">
                 Full Name
               </label>
@@ -21,7 +19,7 @@ const ContactPage = () => {
                 className="border border-black placeholder:text-gray-500  w-full p-2 rounded-md"
               />
             </div>
-            <div className="space-y-1">
+            <div className={styles.field}>
               <label htmlFor="Email">Email</label>
               <input
                 type="email"
@@ -30,7 +28,7 @@ const ContactPage = () => {
                 className="border border-black placeholder:text-gray-500  w-full p-2 rounded-md"
               />
             </div>
-            <div className="space-y-1">
+            <div className={styles.field}>
               <label htmlFor="Message">Message</label>
               <textarea
                 name="Message"
@@ -41,9 +39,7 @@ const ContactPage = () => {
                 className="border border-black placeholder:text-gray-500  w-full p-2 rounded-md"
               ></textarea>
             </div>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-auto block">
-              Submit
-            </button>
+            <button className={styles.btn}>Submit</button>
           </form>
         </div>
       </div>
