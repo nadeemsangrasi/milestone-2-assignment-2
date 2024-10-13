@@ -8,10 +8,10 @@ const AboutSection = () => {
     <Wrapper>
       <div id="about" className={styles.about}>
         <div className={styles.right}>
-          <Image src={aboutImg} alt="martImage" className="w-full" />
+          <Image src={aboutImg} alt="martImage" />
         </div>
         <div className={styles.left}>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
+          <h1 >
             About Us
           </h1>
           <p>
