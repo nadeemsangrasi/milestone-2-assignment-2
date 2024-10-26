@@ -1,5 +1,5 @@
 import { IconBrandGmail, IconLocation } from "@tabler/icons-react";
-import { Linkedin, Phone, X } from "lucide-react";
+import { Phone } from "lucide-react";
 import Link from "next/link";
 import styles from "./footer.module.css";
 
