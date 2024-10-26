@@ -7,16 +7,16 @@ const ContactPage = () => {
       <div>
         <h1 className={styles.heading}>Contact Us</h1>
         <div className="my-8">
-          <form action="#" className="space-y-3">
+          <form action="#">
             <div className={styles.field}>
-              <label htmlFor="FullName" className="block text-lg">
+              <label htmlFor="FullName" >
                 Full Name
               </label>
               <input
                 type="text"
                 id="Full Name"
                 placeholder="John Doe"
-                className="border border-black placeholder:text-gray-500  w-full p-2 rounded-md"
+               
               />
             </div>
             <div className={styles.field}>
@@ -25,7 +25,7 @@ const ContactPage = () => {
                 type="email"
                 id="Email"
                 placeholder="wWJ9T@example.com"
-                className="border border-black placeholder:text-gray-500  w-full p-2 rounded-md"
+           
               />
             </div>
             <div className={styles.field}>
@@ -36,7 +36,7 @@ const ContactPage = () => {
                 cols={30}
                 rows={10}
                 placeholder="Your Message"
-                className="border border-black placeholder:text-gray-500  w-full p-2 rounded-md"
+              
               ></textarea>
             </div>
             <button className={styles.btn}>Submit</button>
