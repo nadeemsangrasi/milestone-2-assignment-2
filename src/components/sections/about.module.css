@@ -1,7 +1,8 @@
 .about {
+  padding: 45px 0px;
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 
 .about h1 {

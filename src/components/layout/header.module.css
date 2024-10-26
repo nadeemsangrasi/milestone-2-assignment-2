@@ -6,12 +6,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e2e8f0;
+  background-color: black;
 }
 .logo {
   font-weight: 700;
   font-size: 32px;
   margin: 0 0;
+  color: white;
 }
 .menu {
   display: flex;
@@ -23,7 +24,7 @@
 }
 .menu a {
   text-decoration: none;
-  color: #1a202c;
+  color: white;
   font-size: 18px;
   font-weight: 500;
 }

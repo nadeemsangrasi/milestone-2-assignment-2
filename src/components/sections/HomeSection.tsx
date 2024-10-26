@@ -14,6 +14,8 @@ const HomeSection = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
             magnam eos officiis, quas quae dolores est odio distinctio a? Rem,
             sed sequi. Neque odio vitae sit dicta! Deserunt, deleniti explicabo?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            magnam eos officiis, quas quae dolores est odio distinctio a? Rem,
           </p>
         </div>
         <div className={styles.left}>

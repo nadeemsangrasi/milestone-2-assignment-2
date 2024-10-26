@@ -1,0 +1,39 @@
+.productCard {
+  height: fit-content;
+  width: 340px;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+.productCard img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.productTitle {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.productDetails {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.productPrice {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #16a34a;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  gap: 1rem;
+}
