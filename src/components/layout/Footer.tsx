@@ -5,7 +5,7 @@ import styles from "./footer.module.css";
 
 const Footer = (): JSX.Element => {
   return (
-    <>
+    <div className={styles.footer}>
       <div className={styles.footerContainer}>
         <div className={`${styles.footerCol} ${styles.spaceY4}`}>
           <div>
@@ -80,7 +80,7 @@ const Footer = (): JSX.Element => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
